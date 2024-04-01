@@ -7,3 +7,7 @@
 
 ## Demo screenshot
 ![](img/demo1.png)
+
+
+## Demo-Web
+[Newspaper-Title-Classification](https://huggingface.co/spaces/ND0210/data-mining)
