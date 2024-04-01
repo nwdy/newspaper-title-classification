@@ -31,6 +31,12 @@ demo = gr.Interface(
     inputs=input_text, 
     outputs=output_text, 
     title="Newspaper Title Classifier",
+    examples=["Chủ tịch HĐQT Trường quốc tế AISVN đề xuất hỗ trợ 125 tỉ đồng", 
+              "Chuyên gia tài chính Nguyễn Trí Hiếu bị 'hack' gần 500 triệu đồng, ngân hàng im lặng suốt 3 tháng?",
+              "'Siêu nhân bảo vệ nụ cười' P/S xuất hiện tại 35 Siêu thị Co.opmart trên cả nước",
+              "Microsoft hợp tác OpenAI phát triển siêu máy tính AI giá hơn 100 tỉ USD",
+              "Triệu hồi 170.000 xe điện Hyundai, Kia bị lỗi mất điện",
+              ]
 )
 
 demo.launch()
