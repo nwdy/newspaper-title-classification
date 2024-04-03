@@ -6,8 +6,9 @@ import torch.nn.functional as F
 
 genres = ['Kinh tế', 'Giáo dục', 'Xe', 'Sức khoẻ', 'Công nghệ - Game']
 
-tokenizer = AutoTokenizer.from_pretrained("mob2711/phoBERT_finetune_news_classification")
-model = AutoModelForSequenceClassification.from_pretrained("mob2711/phoBERT_finetune_news_classification")
+model_name = "mob2711/phoBERT_finetune_news_classification"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
 def tokenize(text):
     encoded_text = tokenizer(text, padding=True, truncation=True, return_tensors="pt")
