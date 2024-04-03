@@ -6,7 +6,7 @@
 3. **Nguyen Tien Dung** - 22022644
 
 ## Demo screenshot
-![](img/demo1.png)
+![](img/demo.png)
 
 
 ## Demo-Web
